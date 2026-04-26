@@ -1,4 +1,4 @@
-BACKUP ~XanFrenchMini\backup~
+BACKUP ~XanFrenchMini/backup~
 AUTHOR ~http://forums.pocketplane.net~
 VERSION ~v2~
 
@@ -41,7 +41,7 @@ AT_UNINSTALL ~XanFrenchMini/AudioUninstallBlank.bat~
 
 BEGIN @1
 
-COPY ~XanFrenchMini\Audio~ ~override~
+COPY ~XanFrenchMini/Audio~ ~override~
 
 COPY_EXISTING ~O#Xan09.cre~ ~override~
 SAY NAME1 @51 /* Xan */
